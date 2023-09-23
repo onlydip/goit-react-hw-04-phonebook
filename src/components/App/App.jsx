@@ -11,7 +11,7 @@ export default class App extends Component {
   state = {
     contacts: [],
     filter: '',
-  };
+  }; 
 
   componentDidMount() {
     const storedContacts = localStorage.getItem('contacts');
